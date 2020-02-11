@@ -22,3 +22,13 @@ doWork().then((result) => {
 }).catch((e) => {
     console.log('e', e)
 })
+
+
+// foreach => you can access the array index
+// for of => you cannot
+
+// arr.forEach((v, i) => console.log(v));
+
+// for (const v of arr) {
+//   console.log(v);
+// }
